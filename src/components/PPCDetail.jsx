@@ -32,12 +32,11 @@ export default function PPCDetail() {
           </div>
 
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tighter leading-tight mb-4 sm:mb-6">
-            Maximize your ad spend with precision targeting.
+            Google Ads & Meta Ads Management in Indore
           </h2>
 
           <p className="text-base sm:text-xl text-zinc-700 font-medium mb-6 sm:mb-8">
-            Stop wasting money on clicks that don't convert. We build hyper-targeted
-            ad campaigns on Google and Meta that turn your budget into measurable revenue.
+            Stop wasting money on clicks that do not convert. Our certified PPC specialists in Indore build hyper-targeted ad campaigns on Google and Meta that turn your budget into measurable revenue. We have reduced CPL by 48% and delivered 6.4x ROAS for clients across India.
           </p>
 
           <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-10 font-bold text-base sm:text-lg">

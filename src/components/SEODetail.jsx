@@ -47,12 +47,11 @@ export default function SEODetail() {
           </div>
 
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tighter leading-tight mb-4 sm:mb-6">
-            Dominate search results and capture high-intent traffic.
+            SEO Services in Indore: Dominate Google Search Results
           </h2>
 
           <p className="text-base sm:text-xl text-zinc-700 font-medium mb-6 sm:mb-8">
-            We use data-driven strategies, technical audits, and high-quality link
-            building to push your website to the top of Google. Stop hiding on page two.
+            With 8+ years of SEO experience and 90+ keywords ranked on page 1, our team uses data-driven strategies, technical audits, and authority link building to push your business to the top of Google. We have generated 2.4M+ leads for businesses across Indore, Bhopal and India.
           </p>
 
           <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-10 font-bold text-base sm:text-lg">

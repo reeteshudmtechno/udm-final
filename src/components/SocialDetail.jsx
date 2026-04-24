@@ -64,11 +64,11 @@ export default function SocialDetail() {
           </div>
 
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black mb-4 sm:mb-6">
-            Build a loyal community that loves your brand.
+            Social Media Marketing Agency in Indore
           </h2>
 
           <p className="text-base sm:text-xl text-zinc-700 mb-6 sm:mb-8">
-            We create engaging, shareable content that turns followers into brand advocates.
+            Our social media team in Indore creates engaging, shareable content that turns followers into brand advocates. We have grown a restaurant brand from 2k to 50k followers and tripled their inbound DMs in just 6 months.
           </p>
 
           <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-10 font-bold text-base sm:text-lg">

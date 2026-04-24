@@ -28,8 +28,9 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-zinc-800 mb-6 leading-snug font-medium">
-              We don't just market. We build digital empires that grab attention,
-              crush competitors, and generate massive ROI.
+              Indore's top-rated digital marketing agency. We help businesses rank on
+              Google, generate qualified leads, and scale revenue through SEO, paid ads,
+              websites and social media.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 font-bold">

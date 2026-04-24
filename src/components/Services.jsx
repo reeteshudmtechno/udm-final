@@ -83,10 +83,10 @@ export default function Services() {
           </div>
 
           <h2 className="text-2xl lg:text-3xl font-bold tracking-tight leading-snug">
-            We help businesses rank in <span className="text-brand">Top 10 on Google</span> & generate consistent leads.
+            Digital Marketing Services in Indore That Rank You in the <span className="text-brand">Top 10 on Google</span>
           </h2>
           <p className="text-zinc-700 mt-3 font-semibold max-w-2xl">
-            Full-stack digital marketing under one roof — from SEO and ads to social, websites and influencer.
+            Full-stack digital marketing under one roof in Indore. SEO, Google Ads, Meta Ads, social media management, website development and lead generation for businesses across India.
           </p>
         </div>
 

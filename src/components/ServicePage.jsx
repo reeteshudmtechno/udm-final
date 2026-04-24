@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import PageShell from "./PageShell";
+import SEOHead from "./SEOHead";
 import portfolioPDF from "../assets/portfolio.pdf";
 
 export default function ServicePage(props) {
@@ -8,6 +9,13 @@ export default function ServicePage(props) {
 
   return (
     <PageShell>
+      {props.seoTitle && (
+        <SEOHead
+          title={props.seoTitle}
+          description={props.seoDescription}
+          schema={props.schema}
+        />
+      )}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 sm:pt-10 pb-10 sm:pb-14 lg:pt-16 lg:pb-20">
         <div className="grid lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-7">

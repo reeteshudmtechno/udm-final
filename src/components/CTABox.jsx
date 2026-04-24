@@ -9,11 +9,10 @@ export default function CTABox() {
 
         <div className="max-w-2xl relative z-10">
           <h3 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tighter mb-4 sm:mb-6">
-            Let's make things happen
+            Ready to Grow Your Business Online?
           </h3>
           <p className="text-base sm:text-xl text-zinc-700 font-medium">
-            Contact us today to learn more about how our digital marketing services
-            can help your business grow and succeed online.
+            Get a free growth plan from Indore's top digital marketing agency. We help businesses rank on Google, generate qualified leads and scale revenue. 150+ happy clients across India.
           </p>
         </div>
 

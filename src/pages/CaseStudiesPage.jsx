@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import PageShell from "@/components/PageShell";
+import SEOHead from "@/components/SEOHead";
 import gmb from "../assets/gmb.png";
 import seo from "../assets/seo_result.png";
 import socialpro from "../assets/social_media_profile.png";
@@ -266,15 +267,26 @@ export const CASE_STUDIES = [
 export default function CaseStudiesPage() {
   return (
     <PageShell>
+      <SEOHead
+        title="Case Studies | Digital Marketing Results - UDM Techno Solutions"
+        description="See real results from UDM Techno Solutions clients. Case studies showing +312% organic traffic, 6.4x ROAS, #1 Map Pack rankings and more. SEO, Google Ads, Meta Ads and social media results from Indore."
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Digital Marketing Case Studies | UDM Techno Solutions",
+          "description": "Real results from real brands. See how UDM Techno Solutions helped businesses across India achieve measurable growth through SEO, Google Ads, Meta Ads, website development and social media.",
+          "url": "https://udmtechno.com/case-studies"
+        }}
+      />
       <section className="max-w-7xl mx-auto px-4 md:px-6 pt-10 pb-10 lg:pt-16">
         <div className="inline-block bg-brand text-brand-foreground font-black px-3 py-1 border-2 border-black rounded-lg text-sm -rotate-2 mb-5">
           Case Studies
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter leading-[1.02] mb-5">
-          Real brands. Real numbers. Real results.
+          Real Brands. Real Numbers. Proven Digital Marketing Results.
         </h1>
         <p className="text-base md:text-lg text-zinc-700 max-w-3xl leading-relaxed">
-          A handful of case studies showing how we help businesses rank in Top 10 on Google and generate consistent leads across SEO, Google Ads, Meta Ads, websites and social.
+          Explore how we have helped businesses in Indore and across India rank in the Top 10 on Google, scale ad revenue, and generate consistent qualified leads through SEO, Google Ads, Meta Ads, website development and social media.
         </p>
       </section>
 
@@ -338,9 +350,23 @@ export function CaseStudyDetail() {
 
   return (
     <PageShell>
+      <SEOHead
+        title={`${c.title} | ${c.service} Case Study - UDM Techno Solutions`}
+        description={c.summary}
+        ogType="article"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": c.title,
+          "description": c.summary,
+          "url": `https://udmtechno.com/case-studies/${c.slug}`,
+          "author": { "@type": "Organization", "name": "UDM Techno Solutions" },
+          "publisher": { "@type": "Organization", "name": "UDM Techno Solutions" }
+        }}
+      />
       <article className="max-w-5xl mx-auto px-4 md:px-6 py-10 md:py-16">
         <Link to="/case-studies" className="text-sm font-black text-zinc-600 hover:text-brand">
-          ← All case studies
+          &larr; All case studies
         </Link>
 
         <div className="mt-6 mb-6 flex flex-wrap gap-2">
